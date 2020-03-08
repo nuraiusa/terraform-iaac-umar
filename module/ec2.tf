@@ -4,6 +4,10 @@ resource "aws_instance" "web" {
   key_name      ="${aws_key_pair.deployer.key_name}"
 }
 
-output "IPP" {
+output "IP" {
   value = "${aws_instance.web.public_ip}"
+}
+
+output "KEY" {
+  value = "${aws_instance.web.key_names}"
 }
