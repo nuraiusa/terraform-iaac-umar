@@ -1,7 +1,7 @@
-output "IPP" {
-  value = "${module.wordpress.IPP}"
+output "IP" {
+  value = "${module.wordpress.IP}"
 }
 
 output "KEY" {
-  value = "${module.wordpress.key}"
+  value = "${module.wordpress.KEY}"
 }
