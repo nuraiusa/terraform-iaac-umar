@@ -3,5 +3,5 @@ output "IP" {
 }
 
 output "KEY" {
-  value = "${aws_instance.web.key_names}"
+  value = "${aws_instance.web.key_name}"
 }
