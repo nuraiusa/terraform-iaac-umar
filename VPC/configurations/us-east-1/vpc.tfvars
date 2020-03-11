@@ -1,4 +1,4 @@
-environment                     =   	"tools"
+environment                     =   	"Virgina"
 
 s3_bucket                       =	"terraform-class-umar"
 s3_folder_region                =	"us-east-1"
