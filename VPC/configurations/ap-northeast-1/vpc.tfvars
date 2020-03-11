@@ -1,8 +1,8 @@
-environment                     =  "Singapore"
+environment                     =  "Tokyo"
 
 s3_bucket                       =	"terraform-class-umar"
 s3_folder_region                =	"us-east-1"
-region                          =   "ap-southeast-1"
+region                          =   "ap-northeast-1"
 
 cidr_block = "10.0.0.0/16"
 
