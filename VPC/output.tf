@@ -15,15 +15,15 @@ outuput "Subnet3" {
    value   = "${module.dev.Subnet2}"
 }
 
-outuput "Private Subent1" {
+outuput "Private_Subent1" {
    value   = "${module.dev.Private_Subent1}"
 }
 
-outuput "Private Subent2" {
+outuput "Private_Subent2" {
    value   = "${module.dev.Private_Subnet2}"
 }
 
-outuput "Private Subent3" {
+outuput "Private_Subent3" {
    value   = "${module.dev.Private_Subent3}"
 }
 
