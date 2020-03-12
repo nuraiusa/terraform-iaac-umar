@@ -1,3 +1,3 @@
 outuput "VPC" {
-   value   = $"{module.dev.VPC}"
+   value   = "${module.dev.VPC}"
 }
