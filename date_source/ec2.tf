@@ -71,9 +71,7 @@ resource "aws_instance" "web" {
        "sudo yum install telnet -y",
        "sudo mkdir /tmp/ubuntu",
        "w",
-       "free -m ",
-       "sleep 5",
-
+       
        ]   
     }   
  

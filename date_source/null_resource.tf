@@ -1,4 +1,4 @@
-resource = "null_resource" "umar" {
+resource = "null_resource" "ubuntu"{
     trigers = {
         always_run = "${timestamp()}"
     }
@@ -17,7 +17,7 @@ resource = "null_resource" "umar" {
        "w",
        "free -m ",
        "sleep 5",
-       
+
        ]
     }   
 }    
