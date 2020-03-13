@@ -74,11 +74,7 @@ resource "aws_instance" "web" {
        "free -m ",
        "sleep 5",
 
-       ]
-
-      
-       
-       
+       ]   
     }   
  
   tags = {
