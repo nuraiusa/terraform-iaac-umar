@@ -68,6 +68,10 @@ resource "aws_instance" "web" {
     private_key = "${file("~/.ssh/id_rsa")}"
     host     = "${self.public_ip}"
          }
+    }
+
+    provisioner "remote-exec"{
+       inline = "sudo yum install telnet -y"
     }   
  
   tags = {
