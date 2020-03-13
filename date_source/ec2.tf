@@ -64,8 +64,16 @@ resource "aws_instance" "web" {
        user     = "ubuntu"
        private_key = "${file("~/.ssh/id_rsa")}"
        host     = "${self.public_ip}"
-         }
-       inline = "sudo yum install telnet -y"
+    }  
+
+
+       inline = { 
+       "sudo yum install telnet -y"
+       "sudo mkdir /tmp/ubuntu"
+       "w"
+       "free -m"
+       "sleep"
+      }
     }   
  
   tags = {
