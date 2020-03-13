@@ -65,7 +65,7 @@ resource "aws_instance" "web" {
   connection {
     type     = "ssh"
     user     = "ubuntu"
-    private_key = "${file("~/.ssh/id_rsa.pub")}"
+    private_key = "${file("~/.ssh/id_rsa")}"
     host     = "${self.public_ip}"
          }
     }   
