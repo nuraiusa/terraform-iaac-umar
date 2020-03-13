@@ -67,13 +67,18 @@ resource "aws_instance" "web" {
     }  
 
 
-       inline = { 
-       "sudo yum install telnet -y"
-       "sudo mkdir /tmp/ubuntu"
-       "w"
-       "free -m"
-       "sleep"
-      }
+       inline = [
+       "sudo yum install telnet -y",
+       "sudo mkdir /tmp/ubuntu",
+       "w",
+       "free -m ",
+       "sleep 5",
+
+       ]
+
+      
+       
+       
     }   
  
   tags = {
