@@ -1,8 +1,8 @@
-resource = "null_resource" "umar"{
-    trigers = {
+resource  "null_resource" "umar" {
+    triggers = {
         always_run = "${timestamp()}"
     }
-    rovisioner "remote-exec"{
+    provisioner "remote-exec"{
     connection {
       type     = "ssh"
        user     = "ubuntu"

@@ -58,7 +58,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   key_name      = "${aws_key_pair.provisioner.key_name}"
 
- rovisioner "remote-exec"{
+ provisioner "remote-exec"{
     connection {
       type     = "ssh"
        user     = "ubuntu"
